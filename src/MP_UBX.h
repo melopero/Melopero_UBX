@@ -105,8 +105,8 @@ typedef struct {
  uint8_t fixStatusFlags;
  uint8_t additionalFlags;
  uint8_t numberOfSatellites;
- float longitude; //degrees
- float latitude; //degrees
+ int32_t longitude; //degrees
+ int32_t latitude; //degrees
  int32_t height; //mm
  int32_t hMSL; //mm
  uint32_t horizontalAccuracy;
@@ -115,14 +115,14 @@ typedef struct {
  int32_t velocityEast; //mm/s
  int32_t velocityDown; //mm/s
  int32_t groundSpeed; //mm/s
- float headingOfMotion; //degrees
+ int32_t headingOfMotion; //degrees
  uint32_t speedAccuracy; //mm/s
- float headingAccuracy; //mm/s
- float positionDOP;
+ int32_t headingAccuracy; //mm/s
+ uint16_t positionDOP;
  uint8_t reserved;
- float headingOfVehicle;
- float magneticDeclination;
- float declinationAccuracy;
+ int32_t headingOfVehicle;
+ int16_t magneticDeclination;
+ uint16_t declinationAccuracy;
 
 } PVTData;
 
