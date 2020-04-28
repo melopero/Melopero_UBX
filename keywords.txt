@@ -1,4 +1,4 @@
-# Syntax Coloring Map For Melopero MP_UBX
+# Syntax Coloring Map For Melopero_UBX
 
 # Datatypes (KEYWORD1)
 UbxMessage  KEYWORD3

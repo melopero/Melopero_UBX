@@ -1,7 +1,7 @@
 //Author: Leonardo La Rocca info@melopero.com
 
-#ifndef MP_UBX_H_INCLUDED
-#define MP_UBX_H_INCLUDED
+#ifndef Melopero_UBX_H_INCLUDED
+#define Melopero_UBX_H_INCLUDED
 
 #include "Arduino.h"
 
@@ -136,4 +136,4 @@ void resetPayload(UbxMessage &msg);
 
 String ubxMessageToString(UbxMessage &msg);
 
-#endif // MP_UBX_H_INCLUDED
+#endif // Melopero_UBX_H_INCLUDED
